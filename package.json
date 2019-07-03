@@ -37,9 +37,13 @@
     "requestify": "^0.1.17",
     "rucksack-css": "^0.8.5",
     "string": "^3.3.1",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "snyk": "^1.189.0"
   },
   "scripts": {
-    "start": "node web.js"
-  }
+    "start": "node web.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
