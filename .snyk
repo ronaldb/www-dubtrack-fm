@@ -19,6 +19,8 @@ patch:
         patched: '2020-05-20T02:31:48.625Z'
     - grunt-contrib-watch > gaze > globule > lodash:
         patched: '2020-05-20T02:31:48.625Z'
+    - grunt-contrib-watch > async > lodash:
+        patched: '2020-05-20T21:19:39.794Z'
   'npm:ms:20170412':
     - grunt-contrib-watch > tiny-lr > body-parser > debug > ms:
         patched: '2020-05-20T02:31:48.625Z'
