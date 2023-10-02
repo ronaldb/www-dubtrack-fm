@@ -30,7 +30,7 @@
     "helmet": "^0.12.0",
     "helmet-csp": "^0.3.0",
     "load-grunt-tasks": "^3.3.0",
-    "lost": "^6.6.2",
+    "lost": "^9.0.0",
     "morgan": "^1.6.1",
     "newrelic": "^4.0.0",
     "poststylus": "^0.2.1",
