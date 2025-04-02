@@ -20,10 +20,10 @@
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-compass": "~0.7.0",
     "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-jshint": "~0.11.1",
+    "grunt-contrib-jshint": "~3.1.0",
     "grunt-contrib-stylus": "^1.2.0",
     "grunt-contrib-uglify": "~0.2.7",
-    "grunt-contrib-watch": "~1.0.0",
+    "grunt-contrib-watch": "~1.1.0",
     "grunt-cssnano": "^2.0.1",
     "grunt-remove-logging": "~0.2.0",
     "grunt-wrap": "*",
@@ -38,11 +38,11 @@
     "rucksack-css": "^0.8.5",
     "string": "^3.3.1",
     "underscore": "^1.8.3",
-    "snyk": "^1.323.1"
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "node web.js",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
   "snyk": true
